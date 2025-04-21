@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael-Daniel's Portfolio Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 30px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+        form input, form textarea {
+            display: block;
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Portfolio</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Hello! I'm a web developer passionate about building beautiful and functional websites.</p>
+        <video width="320" height="240" controls>
+            <source src="my-intro-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a full-stack developer with a love for learning new technologies.</p>
+        <ul>
+            <li>Frontend: HTML, CSS, JavaScript</li>
+            <li>Backend: Node.js, Express</li>
+            <li>Databases: MongoDB, SQL</li>
+        </ul>
+    </section>
+
+    <section id="work">
+        <h2>My Work</h2>
+        <p>Here are a few projects I've worked on:</p>
+        <ul>
+            <li><a href="#project1">Project One</a></li>
+            <li><a href="#project2">Project Two</a></li>
+            <li><a href="#project3">Project Three</a></li>
+        </ul>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Experience</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2022</td>
+                    <td>Frontend Developer at ABC Corp</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>Full-Stack Developer at XYZ Inc</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
